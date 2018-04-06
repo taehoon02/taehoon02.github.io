@@ -6,62 +6,35 @@
     <description>Recent content in Tags on Taehoon&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Apr 2018 21:31:00 +0900</lastBuildDate>
     
 	<atom:link href="https://taehoon02.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Development</title>
-      <link>https://taehoon02.github.io/tags/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Blog</title>
+      <link>https://taehoon02.github.io/tags/blog/</link>
+      <pubDate>Wed, 04 Apr 2018 21:31:00 +0900</pubDate>
       
-      <guid>https://taehoon02.github.io/tags/development/</guid>
+      <guid>https://taehoon02.github.io/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Go</title>
       <link>https://taehoon02.github.io/tags/go/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 04 Apr 2018 21:31:00 +0900</pubDate>
       
       <guid>https://taehoon02.github.io/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Golang</title>
-      <link>https://taehoon02.github.io/tags/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://taehoon02.github.io/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Hugo</title>
       <link>https://taehoon02.github.io/tags/hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 04 Apr 2018 21:31:00 +0900</pubDate>
       
       <guid>https://taehoon02.github.io/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Templates</title>
-      <link>https://taehoon02.github.io/tags/templates/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://taehoon02.github.io/tags/templates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Themes</title>
-      <link>https://taehoon02.github.io/tags/themes/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://taehoon02.github.io/tags/themes/</guid>
       <description></description>
     </item>
     
