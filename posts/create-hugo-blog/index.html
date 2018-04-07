@@ -26,7 +26,7 @@
 
 		
 		<meta name="author" content="Taehoon Kwon">
-		<meta name="description" content="������ ����ġ�� �����ϴ� ����Ʈ���� �������� �Ҽ��� �̾߱�">
+		<meta name="description" content="배우고 가르치는 것을 좋아하는 프론트엔드 개발자의 소소한 이야기를 담는 블로그">
 		<meta name="generator" content="Hugo 0.38" />
 		<title>Hugo 블로그 만들기 &middot; Taehoon&#39;s Blog</title>
 		<link rel="shortcut icon" href="https://taehoon02.github.io/images/favicon.ico">
@@ -70,8 +70,8 @@
                     </h1>
                     <h2 class="headline">
                     Apr 4, 2018 21:31
-                    · 214 words
-                    · 1 minute read
+                    · 848 words
+                    · 2 minute read
                       <span class="tags">
                       
                       
@@ -94,20 +94,109 @@
 <h3 id="시작하기-전에">시작하기 전에</h3>
 
 <ol>
-<li>windows를 기준으로 설명한다. (필자는 windows 10)</li>
-<li><a href="https://golang.org/">go언어</a>를 설치하자.</li>
-<li>github pages이므로 git 설치 안했다고 빼애액거리면 때리러감.<br>그러므로 git을 설치하자^^</li>
+<li><p>windows를 기준으로 설명한다. (필자는 windows 10)</p></li>
+
+<li><p><a href="https://golang.org/">go언어</a>를 설치하자.</p></li>
+
+<li><p>github pages이므로 git 설치 안했다고 빼애액거리면 때리러감.<br>그러므로 git을 설치하자^^</p></li>
 </ol>
 
 <h3 id="시작하기">시작하기</h3>
 
-<p>여기서부터 다시 작성.</p>
+<p><a href="https://gohugo.io/getting-started/installing/">Install Hugo</a>에 나와있는데로 <a herf="https://chocolatey.org/">Chocolatey</a>을 통해서 설치할 수도 있지만 다른 방법을 사용하여 Hugo 설치 및 깃허브 호스팅 방법을 올리도록 하겠다.</p>
 
-<p>hugo 설치 ~ 테마 적용, 로컬까지 확인 참고
-<a href="http://brannpark.github.io/blog/post/20151201_hugo_with_github_pages/">http://brannpark.github.io/blog/post/20151201_hugo_with_github_pages/</a></p>
+<h3 id="hugo-설치">Hugo 설치</h3>
 
-<p>깃허브 호스팅 참고
-<a href="https://xenostream.github.io/2017/01/setup-blog-with-hugo-with-github-pages/">https://xenostream.github.io/2017/01/setup-blog-with-hugo-with-github-pages/</a></p>
+<ol>
+<li><p><a href="https://github.com/gohugoio/hugo/releases">Hugo Releases</a>에 들어가 최신버전의 Hugo를 다운받는다. (windows-32bit.zip 혹은 windows-64bit.zip 을 자신의 컴퓨터에 알맞게 선택하여 설치)</p></li>
+
+<li><p>Hugo 폴더를 만들고 안에 bin 폴더를 만든다. (C:\Hugo\bin)</p></li>
+
+<li><p>다운받은 압축파일의 내용물만 bin폴더에 푼다. (hugo.exe, README.md, LICENSE.md)</p></li>
+</ol>
+
+<p>설치 완료.</p>
+
+<h3 id="hugo-블로그-만들기">Hugo 블로그 만들기</h3>
+
+<ol>
+<li><p>Hugo 폴더에서 시작한다. (C:\Hugo)</p></li>
+
+<li><p>새로운 사이트를 만든다.</p></li>
+</ol>
+
+<pre><code>$ hugo new site &lt;site_name&gt;
+ex) $ hugo new site blog
+</code></pre>
+
+<p>사이트 생성 완료.</p>
+
+<h3 id="테마-적용하기">테마 적용하기</h3>
+
+<p><a href="https://themes.gohugo.io/">Hugo Themes</a>에서 원하는 테마의 git 저장소 URL을 확인한다. 그리고 생성된 사이트 폴더에서 아래와 같이 cmd에 입력.</p>
+
+<pre><code>$ cd themes
+$ git clone &lt;repo_url_of_theme&gt;
+</code></pre>
+
+<p>테마 설치 완료.<br>
+그리고 테마에 대한 내용을 복붙하거나 테마 git README 파일에서 하라는 대로 하면 테마가 적용된다.</p>
+
+<h3 id="configuration">Configuration</h3>
+
+<p>config.[toml|yaml|json]<br>
+Hugo 프로젝트의 설정파일이다. 테마별로 빌드관련 설정이 다르므로 테마에서 제공하는 config.[toml|yaml|json] 파일을 가져온 후 아래와 같은 정보를 추가한다.</p>
+
+<pre><code>baseurl = &quot;&lt;domain&gt;&quot;
+languageCode = &quot;ko&quot;
+title = &quot;title&quot;
+theme = &quot;theme_name&quot;
+
+contentdir = &quot;content&quot;
+layoutdir = &quot;layouts&quot;
+staticdir = &quot;static&quot;
+publishdir = &quot;public&quot;
+</code></pre>
+
+<p>여기에서 가장 중요한 것은 publishdir, baseurl, theme 정도.<br>
+publishdir은 깃허브 호스팅을 위해 꼭 필요하므로 꼭 기입하기 바란다. 또한 baseurl의 경우 깃허브 호스팅을 사용하기 위함이라면 <code>https://&lt;username&gt;.github.io/</code> 로 입력하자.</p>
+
+<h3 id="로컬환경에서-사이트-확인">로컬환경에서 사이트 확인</h3>
+
+<p>로컬환경에서 사이트를 볼 수 있다. site_name 폴더에서 시작한다. (C:\Hugo\site-name)</p>
+
+<pre><code>$ hugo server
+</code></pre>
+
+<p>이제 <a href="http://localhost:1313><a href="http://localhost:1313">http://localhost:1313</a></a> 로 접속하여 확인 가능하다.</p>
+
+<h3 id="깃허브-호스팅으로-사이트-공유하기">깃허브 호스팅으로 사이트 공유하기</h3>
+
+<ol>
+<li>깃허브에서 <username>.github.io 레포를 만든다.</li>
+<li>site_name 폴더에서 시작한다. (C:\Hugo\site-name)</li>
+</ol>
+
+<pre><code>$ hugo
+$ cd public
+$ git init
+$ git add .
+$ git commit -m &quot;initial&quot;
+$ git remote add origin https://github.com/username/username.github.io.git
+$ git push origin master
+</code></pre>
+
+<h3 id="포스트-추가">포스트 추가</h3>
+
+<p>포스트 추가도 깃허브 호스팅에서와 같은 방법으로 하면 된다.</p>
+
+<pre><code>$ hugo
+$ cd public
+$ git init
+$ git add .
+$ git commit -m &quot;initial&quot;
+$ git push origin master
+</code></pre>
 
 <h3 id="마치면서">마치면서</h3>
 

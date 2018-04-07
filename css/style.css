@@ -40,22 +40,11 @@ table {
 /* Fonts */
 
 
-@font-face {
-  font-family: 'Noto Sans KR R';
-  src: url('../fonts/NotoSansKR-Regular.otf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'NanumSquareRoundB';
-  src: url('../fonts/NanumSquareRoundB.ttf');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900');
+@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
 
 .symbol, a.symbol:before {
-    font-family: 'Noto Sans KR R';
+    font-family: 'Source Sans Pro', sans-serif;
     -webkit-text-rendering: optimizeLegibility;
     -moz-text-rendering: optimizeLegibility;
     -ms-text-rendering: optimizeLegibility;
@@ -152,10 +141,11 @@ html, body {
 }
 
 body {
-    font: 16px/1 "Noto Sans KR R", sans-serif;
+    font: 16px/1 'NanumSquareRound', sans-serif;
     color: #666;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    font-weight: 400;
 }
 
 h1 {
@@ -193,16 +183,17 @@ h2 {
 }
 
 .profile #avatar:hover {
-  transform: scale(1.2);
-  box-shadow: 0px 0px 150px #00000080;
+    transform: scale(1.2);
+    box-shadow: 0px 0px 150px #00000080;
 }
 
 .profile h1 {
-  font-family: 'Noto Sans KR R', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     letter-spacing: 0px;
     font-size: 20px;
     color: #222;
+    font-weight: 400;
 }
 
 .profile h2 {
@@ -210,8 +201,9 @@ h2 {
     font-weight: 300;
     color: #aaa;
     margin-top: 10px;
-    font-family: 'Noto Sans KR R', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
+    font-weight: 400;
 }
 
 nav.main-nav {
@@ -221,6 +213,8 @@ nav.main-nav {
     margin: 0 auto;
     text-align: right;
     z-index: 100;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
 }
 
 nav.main-nav a {
@@ -379,27 +373,30 @@ em, i {
     margin-top: 40px;
     margin-bottom: 20px;
     color: #222;
-    font: 300 32px/1.4em "NanumSquareRoundB", sans-serif;
+    font: 300 32px/1.4em 'NanumSquareRound', sans-serif;
+    font-weight: 800;
 }
 
 .post h2 {
     margin-top: 20px;
     margin-bottom: 10px;
-    font: 300 24px/1.5 "Noto Sans KR R", sans-serif;
+    font: 300 24px/1.5 'NanumSquareRound', sans-serif;
+    font-weight: 800;
     color: #111;
 }
 
 .post h2.headline {
-    font: normal 13px/1.5em "Noto Sans KR R", sans-serif;
+    font: normal 13px/1.5em 'NanumSquareRound', sans-serif;
     margin: -5px 0 0 0;
     color: #b2b9be;
     font-size: 13px;
     letter-spacing: 1px;
     display: inline-block;
+    font-weight: 800;
 }
 
 .post h2.headline .tags {
-    font: normal 13px/1.5em "Noto Sans KR R", sans-serif;
+    font: normal 13px/1.5em 'NanumSquareRound', sans-serif;
     margin: -5px 0 40px 0;
     color: #b2b9be;
     font-size: 13px;
@@ -407,12 +404,14 @@ em, i {
     letter-spacing: 2px;
     margin-top: 5px;
     display: block;
+    font-weight: 800;
 }
 
 #post-list h2 {
-    font: normal 17px/1.5em "Noto Sans KR R", sans-serif;
+    font: normal 17px/1.5em 'NanumSquareRound', sans-serif;
     color: #aaa;
     margin-top: 2px;
+    font-weight: 700;
 }
 
 h3, h4, h5 {
@@ -420,8 +419,9 @@ h3, h4, h5 {
 }
 
 h3 {
+    font-family: 'NanumSquareRound', sans-serif;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 h4 {
@@ -544,14 +544,16 @@ Post List
 #post-list a {
     color: #555;
     display: block;
-    font: bold 19px/1.7 "NanumSquareRoundB";
+    font: bold 19px/1.7 'NanumSquareRound', sans-serif;
+    font-weight: 800;
 }
 
 #post-list .dates {
     float: right;
     position: relative;
     top: 1px;
-    font: 300 17px/1.8 "NanumSquareRoundB";
+    font: 300 17px/1.8 'NanumSquareRound', sans-serif;
+    font-weight: 800;
     color: #bbb;
 }
 
@@ -703,12 +705,13 @@ h1.archive {
 
 h2.month {
     width: 100%;
-    font: bold 13px/1 "Noto Sans KR R", helvetica, Arial, sans-serif;
+    font: bold 13px/1 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     margin-top: 40px;
     margin-bottom: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #eee;
+    font-weight: 700;
 }
 
 #archive-list li:last-child {
@@ -717,16 +720,18 @@ h2.month {
 
 #archive-list a {
     display: block;
-    font: bold 17px/1.7 "Noto Sans KR R", helvetica, Arial, sans-serif;
+    font: bold 17px/1.7 'Source Sans Pro', sans-serif;
     color: #333;
+    font-weight: 700;
 }
 
 #archive-list .dates {
     float: right;
     position: relative;
     top: 1px;
-    font: 300 17px/1.7 "Noto Sans KR R", helvetica, Arial, sans-serif;
+    font: 300 17px/1.7 'Source Sans Pro', sans-serif;
     color: #bbb;
+    font-weight: 700;
 }
 
 #archive-list li a:hover, #archive-list li:hover .dates {
@@ -750,13 +755,15 @@ h2.month {
     margin-bottom: 0px;
 }
 #post-list.archive.readmore h3 {
-    font: 400 20px "Noto Sans KR R", Helvetica, Arial, sans-serif;
+    font: 400 20px 'Source Sans Pro', sans-serif;
     margin-bottom: 30px;
+    font-weight: 700;
 }
 
 #post-list.archive.readmore a {
-    font: 400 16px/1.6 "Noto Sans KR R", helvetica, Arial, sans-serif;
+    font: 400 16px/1.6 'Source Sans Pro', sans-serif;
     color: #2EA3F2;
+    font-weight: 700;
 }
 
 #post-list.archive.readmore a:hover {
@@ -764,7 +771,8 @@ h2.month {
 }
 
 #post-list.archive.readmore .dates {
-    font: 300 16px/1.6 "Noto Sans KR R", helvetica, Arial, sans-serif;
+    font: 300 16px/1.6 'Source Sans Pro', sans-serif;
+    font-weight: 700;
 }
 
 #disqus_thread, #ds-thread {
@@ -917,7 +925,8 @@ a.symbol:hover {
   box-shadow: inset 0 0 0 1px #E4EBF2;
   border-radius: 4px;
   overflow: hidden;
-  font-family: 'NanumSquareRoundB';
+  font-family: 'NanumSquareRound', sans-serif;
+  font-weight: 800;
 }
 #TableOfContents {
   margin: 1em 0 0 0;
@@ -942,7 +951,8 @@ a.symbol:hover {
   padding: 0;
 }
 #TableOfContents a code{
-  font-family: 'NanumSquareRoundB';
+  font-family: 'NanumSquareRound', sans-serif;
+  font-weight: 800;
   background-color: #fff;
   font-size: 11px;
   padding: 2px 3px;
