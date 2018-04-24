@@ -17,7 +17,7 @@
       <pubDate>Tue, 24 Apr 2018 18:18:00 +0900</pubDate>
       
       <guid>https://taehoon02.github.io/posts/npm-scripts__vs__gulp/</guid>
-      <description>이 문서는 여기의 내용을 번역한 것입니다. npm scripts와 gulp 비교 npm scripts 장점 npm scripts는 낮은 수준이며 사용하고자 하는 실제 라이브러리를 활용합니다.</description>
+      <description>npm scripts와 gulp 비교 npm scripts 장점 npm scripts는 낮은 수준이며 사용하고자 하는 실제 라이브러리를 활용합니다.(예: &amp;ldquo;lint&amp;rdquo;: &amp;ldquo;eslint ./&amp;rdquo;) package.json</description>
     </item>
     
   </channel>
