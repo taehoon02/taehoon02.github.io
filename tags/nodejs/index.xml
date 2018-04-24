@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nodejs on Taehoon&#39;s Blog</title>
+    <link>https://taehoon02.github.io/tags/nodejs/</link>
+    <description>Recent content in Nodejs on Taehoon&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Tue, 24 Apr 2018 18:18:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://taehoon02.github.io/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>npm scripts와 gulp 비교</title>
+      <link>https://taehoon02.github.io/posts/npm-scripts__vs__gulp/</link>
+      <pubDate>Tue, 24 Apr 2018 18:18:00 +0900</pubDate>
+      
+      <guid>https://taehoon02.github.io/posts/npm-scripts__vs__gulp/</guid>
+      <description>이 문서는 여기의 내용을 번역한 것입니다. npm scripts와 gulp 비교 npm scripts 장점 npm scripts는 낮은 수준이며 사용하고자 하는 실제 라이브러리를 활용합니다.</description>
+    </item>
+    
+  </channel>
+</rss>

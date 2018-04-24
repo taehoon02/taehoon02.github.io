@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://taehoon02.github.io/posts/npm-scripts__vs__gulp/</loc>
+    <lastmod>2018-04-24T18:18:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://taehoon02.github.io/posts/how_to_github_api_tree/</loc>
     <lastmod>2018-04-11T12:15:00+09:00</lastmod>
   </url>
@@ -15,10 +20,6 @@
   <url>
     <loc>https://taehoon02.github.io/posts/create-hugo-blog/</loc>
     <lastmod>2018-04-04T21:31:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://taehoon02.github.io/posts/npm-scripts__vs__gulp/</loc>
   </url>
   
   <url>
@@ -45,20 +46,44 @@
   </url>
   
   <url>
+    <loc>https://taehoon02.github.io/tags/gulp/</loc>
+    <lastmod>2018-04-24T18:18:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://taehoon02.github.io/tags/hugo/</loc>
     <lastmod>2018-04-04T21:31:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://taehoon02.github.io/tags/nodejs/</loc>
+    <lastmod>2018-04-24T18:18:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://taehoon02.github.io/tags/npm/</loc>
+    <lastmod>2018-04-24T18:18:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://taehoon02.github.io/tags/npm_script/</loc>
+    <lastmod>2018-04-24T18:18:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://taehoon02.github.io/posts/</loc>
-    <lastmod>2018-04-11T12:15:00+09:00</lastmod>
+    <lastmod>2018-04-24T18:18:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://taehoon02.github.io/</loc>
-    <lastmod>2018-04-11T12:15:00+09:00</lastmod>
+    <lastmod>2018-04-24T18:18:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
