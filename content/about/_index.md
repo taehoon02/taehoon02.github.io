@@ -15,4 +15,4 @@ hidden = true
 ### 라이선스
 <a href="https://github.com/taehoon02/taehoon02.github.io/tree/hugo">깃허브</a>에서 이 블로그의 소스 코드를 볼 수 있습니다.<br>
 <a href="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web">Source Sans Pro</a>, <a href="https://help.naver.com/support/contents/contents.nhn?serviceNo=1074&categoryNo=3497">나눔스퀘어라운드</a> 폰트를 사용하고 있습니다.<br>
-Hugo로 만들었습니다. 기존 포트폴리오 페이지는 <a href="https://github.com/taehoon02/taehoon02.github.io_exit">여기</a>서 볼 수 있습니다.
+Hugo로 만들었습니다. 기존 포트폴리오 페이지는 <a href="https://github.com/taehoon02/taehoon02.github.io/tree/previous_blog">여기</a>서 볼 수 있습니다.
