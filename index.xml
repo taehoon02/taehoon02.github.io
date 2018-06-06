@@ -6,10 +6,19 @@
     <description>Recent content on Taehoon&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Tue, 24 Apr 2018 18:18:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jun 2018 16:46:00 +0900</lastBuildDate>
     
 	<atom:link href="https://taehoon02.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>화학식 모음</title>
+      <link>https://taehoon02.github.io/posts/chemical_formula/</link>
+      <pubDate>Wed, 06 Jun 2018 16:46:00 +0900</pubDate>
+      
+      <guid>https://taehoon02.github.io/posts/chemical_formula/</guid>
+      <description>   </description>
+    </item>
     
     <item>
       <title>npm scripts와 gulp 비교</title>
