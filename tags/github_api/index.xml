@@ -7,13 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <lastBuildDate>Wed, 11 Apr 2018 12:15:00 +0900</lastBuildDate>
-<<<<<<< HEAD
-    <atom:link href="https://taehoon02.github.io/tags/github_api/index.xml" rel="self" type="application/rss+xml" />
-=======
     
 	<atom:link href="https://taehoon02.github.io/tags/github_api/index.xml" rel="self" type="application/rss+xml" />
     
->>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
     
     <item>
       <title>GitHub API Tree 사용하기</title>
@@ -21,49 +17,7 @@
       <pubDate>Wed, 11 Apr 2018 12:15:00 +0900</pubDate>
       
       <guid>https://taehoon02.github.io/posts/how_to_github_api_tree/</guid>
-<<<<<<< HEAD
-      <description>
-
-&lt;h3 id=&#34;준비할-것:6aade633742390beb32d644141ee5636&#34;&gt;준비할 것&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.getpostman.com/&#34;&gt;Postman&lt;/a&gt; 설치&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com&#34;&gt;github api token&lt;/a&gt; 받기 (github settings -&amp;gt; developer settings -&amp;gt; personal access tokens 에서 토큰 발급. (이 토큰은 잘 알아두도록 하자.)&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;tree-구하기:6aade633742390beb32d644141ee5636&#34;&gt;Tree 구하기&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://developer.github.com/v3/git/trees/&#34;&gt;GitHub API Tree&lt;/a&gt;를 참고하여 작성한다.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Postman 실행&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Authorization TYPE을 Basic Auth 로 하고 오른쪽에서 GitHub Username과 Password을 입력 후 왼쪽 Preview Request 버튼을 클릭한다.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;위쪽을 GET으로 하고 url에 &lt;code&gt;https://api.github.com/repos/&amp;lt;username&amp;gt;/&amp;lt;repo_name&amp;gt;/git/refs/heads/master&lt;/code&gt; 을 입력 후 Send를 클릭한다.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;아래쪽 JSON 확장자명으로 된 파일 내용이 출력되는데 이 중에 object 안의 sha 부분을 복사한다. (숫자 영어로 되어있는 엄청나게 긴 부분)&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;아래 1번과 2번의 차이는 전자는 폴더 상위 내용을 포함하지 않고 후자는 폴더 상위 내용을 포함한다.&lt;br&gt;
-자신이 필요한 Tree를 구하도록 하자.&lt;br&gt;
-?recursive=1이 폴더 상위 내용을 포함한다고 선언하는 것이다.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;위쪽을 GET으로 하고 url에 &lt;code&gt;https://api.github.com/repos/&amp;lt;username&amp;gt;/&amp;lt;repo_name&amp;gt;/git/trees/&amp;lt;sha&amp;gt;&lt;/code&gt; 을 입력 후 Send를 클릭한다. -&amp;gt; 깃허브 tree가 완성되었다!&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;위쪽을 GET으로 하고 url에 &lt;code&gt;https://api.github.com/repos/&amp;lt;username&amp;gt;/&amp;lt;repo_name&amp;gt;/git/trees/&amp;lt;sha&amp;gt;?recursive=1&lt;/code&gt; 을 입력 후 Send를 클릭한다. -&amp;gt; 깃허브 tree가 완성되었다!&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;마치면서:6aade633742390beb32d644141ee5636&#34;&gt;마치면서&lt;/h3&gt;
-
-&lt;p&gt;더 다양한 &lt;a href=&#34;https://developer.github.com/&#34;&gt;GitHub API&lt;/a&gt;는 &lt;a href=&#34;https://developer.github.com/&#34;&gt;여기&lt;/a&gt;를 참고하세요!&lt;br&gt;
-오역이나 궁금한 점은 &lt;a href=&#34;https://taehoon02.github.io/about&#34;&gt;About&lt;/a&gt;의 연락망으로 연락해주시면 친절히 답변해드립니다.&lt;br&gt;물론 영어가 딸려서 한국분만 해당됩니다^^&lt;/p&gt;
-</description>
-=======
       <description>준비할 것 Postman 설치 github api token 받기 (github settings -&amp;gt; developer settings -&amp;gt; personal access tokens 에서 토큰 발급. (이 토큰은 잘 알아두도록 하자.) Tree 구하기 GitHub API Tree를 참고하여 작성한다. Postman 실행 Authorization TYP</description>
->>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
     </item>
     
   </channel>

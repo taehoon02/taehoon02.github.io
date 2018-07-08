@@ -7,131 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <lastBuildDate>Wed, 04 Apr 2018 21:31:00 +0900</lastBuildDate>
-<<<<<<< HEAD
-    <atom:link href="https://taehoon02.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Hugo 블로그 만들기</title>
-      <link>https://taehoon02.github.io/posts/Create-Hugo-Blog/</link>
-      <pubDate>Wed, 04 Apr 2018 21:31:00 +0900</pubDate>
-      
-      <guid>https://taehoon02.github.io/posts/Create-Hugo-Blog/</guid>
-      <description>
-
-&lt;h3 id=&#34;시작하기-전에:ece8866be95f06ecf0f929997c597b6e&#34;&gt;시작하기 전에&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;windows를 기준으로 설명한다. (필자는 windows 10)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://golang.org/&#34;&gt;go언어&lt;/a&gt;를 설치하자.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;github pages이므로 git 설치 안했다고 빼애액거리면 때리러감.&lt;br&gt;그러므로 git을 설치하자^^&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;시작하기:ece8866be95f06ecf0f929997c597b6e&#34;&gt;시작하기&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;Install Hugo&lt;/a&gt;에 나와있는데로 &lt;a herf=&#34;https://chocolatey.org/&#34;&gt;Chocolatey&lt;/a&gt;을 통해서 설치할 수도 있지만 다른 방법을 사용하여 Hugo 설치 및 깃허브 호스팅 방법을 올리도록 하겠다.&lt;/p&gt;
-
-&lt;h3 id=&#34;hugo-설치:ece8866be95f06ecf0f929997c597b6e&#34;&gt;Hugo 설치&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;Hugo Releases&lt;/a&gt;에 들어가 최신버전의 Hugo를 다운받는다. (windows-32bit.zip 혹은 windows-64bit.zip 을 자신의 컴퓨터에 알맞게 선택하여 설치)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Hugo 폴더를 만들고 안에 bin 폴더를 만든다. (C:\Hugo\bin)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;다운받은 압축파일의 내용물만 bin폴더에 푼다. (hugo.exe, README.md, LICENSE.md)&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;설치 완료.&lt;/p&gt;
-
-&lt;h3 id=&#34;hugo-블로그-만들기:ece8866be95f06ecf0f929997c597b6e&#34;&gt;Hugo 블로그 만들기&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Hugo 폴더에서 시작한다. (C:\Hugo)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;새로운 사이트를 만든다.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hugo new site &amp;lt;site_name&amp;gt;
-ex) $ hugo new site blog
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;사이트 생성 완료.&lt;/p&gt;
-
-&lt;h3 id=&#34;테마-적용하기:ece8866be95f06ecf0f929997c597b6e&#34;&gt;테마 적용하기&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;Hugo Themes&lt;/a&gt;에서 원하는 테마의 git 저장소 URL을 확인한다. 그리고 생성된 사이트 폴더에서 아래와 같이 cmd에 입력.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ cd themes
-$ git clone &amp;lt;repo_url_of_theme&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;테마 설치 완료.&lt;br&gt;
-그리고 테마에 대한 내용을 복붙하거나 테마 git README 파일에서 하라는 대로 하면 테마가 적용된다.&lt;/p&gt;
-
-&lt;h3 id=&#34;configuration:ece8866be95f06ecf0f929997c597b6e&#34;&gt;Configuration&lt;/h3&gt;
-
-&lt;p&gt;config.[toml|yaml|json]&lt;br&gt;
-Hugo 프로젝트의 설정파일이다. 테마별로 빌드관련 설정이 다르므로 테마에서 제공하는 config.[toml|yaml|json] 파일을 가져온 후 아래와 같은 정보를 추가한다.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;baseurl = &amp;quot;&amp;lt;domain&amp;gt;&amp;quot;
-languageCode = &amp;quot;ko&amp;quot;
-title = &amp;quot;title&amp;quot;
-theme = &amp;quot;theme_name&amp;quot;
-
-contentdir = &amp;quot;content&amp;quot;
-layoutdir = &amp;quot;layouts&amp;quot;
-staticdir = &amp;quot;static&amp;quot;
-publishdir = &amp;quot;public&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;여기에서 가장 중요한 것은 publishdir, baseurl, theme 정도.&lt;br&gt;
-publishdir은 깃허브 호스팅을 위해 꼭 필요하므로 꼭 기입하기 바란다. 또한 baseurl의 경우 깃허브 호스팅을 사용하기 위함이라면 &lt;code&gt;https://&amp;lt;username&amp;gt;.github.io/&lt;/code&gt; 로 입력하자.&lt;/p&gt;
-
-&lt;h3 id=&#34;로컬환경에서-사이트-확인:ece8866be95f06ecf0f929997c597b6e&#34;&gt;로컬환경에서 사이트 확인&lt;/h3&gt;
-
-&lt;p&gt;로컬환경에서 사이트를 볼 수 있다. site_name 폴더에서 시작한다. (C:\Hugo\site-name)&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hugo server
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;이제 &lt;a href=&#34;http://localhost:1313&gt;&lt;a href=&#34;http://localhost:1313&#34;&gt;http://localhost:1313&lt;/a&gt;&lt;/a&gt; 로 접속하여 확인 가능하다.&lt;/p&gt;
-
-&lt;h3 id=&#34;깃허브-호스팅으로-사이트-공유하기:ece8866be95f06ecf0f929997c597b6e&#34;&gt;깃허브 호스팅으로 사이트 공유하기&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;깃허브에서 username.github.io 레포를 만든다.&lt;/li&gt;
-&lt;li&gt;site_name 폴더에서 시작한다. (C:\Hugo\site-name)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hugo
-$ cd public
-$ git init
-$ git add .
-$ git commit -m &amp;quot;initial&amp;quot;
-$ git remote add origin https://github.com/username/username.github.io.git
-$ git push origin master
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;포스트-추가:ece8866be95f06ecf0f929997c597b6e&#34;&gt;포스트 추가&lt;/h3&gt;
-
-&lt;p&gt;포스트 추가도 깃허브 호스팅에서와 같은 방법으로 하면 된다.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hugo
-$ cd public
-$ git init
-$ git add .
-$ git commit -m &amp;quot;initial&amp;quot;
-$ git push origin master
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;마치면서:ece8866be95f06ecf0f929997c597b6e&#34;&gt;마치면서&lt;/h3&gt;
-
-&lt;p&gt;필자는 &lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;을 사용하지 않았는데 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;에 굉장히 만족하고 있다.&lt;/p&gt;
-
-&lt;p&gt;오역이나 궁금한 점은 &lt;a href=&#34;https://taehoon02.github.io/about&#34;&gt;About&lt;/a&gt;의 연락망으로 연락해주시면 친절히 답변해드립니다.&lt;br&gt;물론 영어가 딸려서 한국분만 해당됩니다^^&lt;/p&gt;
-</description>
-=======
     
 	<atom:link href="https://taehoon02.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
     
@@ -143,7 +18,6 @@ $ git push origin master
       
       <guid>https://taehoon02.github.io/posts/create-hugo-blog/</guid>
       <description>시작하기 전에 windows를 기준으로 설명한다. (필자는 windows 10) go언어를 설치하자. github pages이므로 git 설치 안했다고 빼애액거리면 때리러감. 그러므로</description>
->>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
     </item>
     
   </channel>

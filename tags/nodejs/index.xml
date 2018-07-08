@@ -7,13 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <lastBuildDate>Tue, 24 Apr 2018 18:18:00 +0900</lastBuildDate>
-<<<<<<< HEAD
-    <atom:link href="https://taehoon02.github.io/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
-=======
     
 	<atom:link href="https://taehoon02.github.io/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
     
->>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
     
     <item>
       <title>npm scripts와 gulp 비교</title>
@@ -21,71 +17,7 @@
       <pubDate>Tue, 24 Apr 2018 18:18:00 +0900</pubDate>
       
       <guid>https://taehoon02.github.io/posts/npm-scripts__vs__gulp/</guid>
-<<<<<<< HEAD
-      <description>
-
-&lt;h1 id=&#34;npm-scripts와-gulp-비교:488277c0661887b82f83e27e48b1d35e&#34;&gt;npm scripts와 gulp 비교&lt;/h1&gt;
-
-&lt;h2 id=&#34;npm-scripts:488277c0661887b82f83e27e48b1d35e&#34;&gt;npm scripts&lt;/h2&gt;
-
-&lt;h3 id=&#34;장점:488277c0661887b82f83e27e48b1d35e&#34;&gt;장점&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;npm scripts&lt;/code&gt;는 낮은 수준이며 사용하고자 하는 실제 라이브러리를 활용합니다.(예: &amp;ldquo;lint&amp;rdquo;: &amp;ldquo;eslint ./&amp;rdquo;)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;package.json&lt;/code&gt;은 사용 가능한 스크립트를 확인하는 중앙에 위치합니다.(&lt;code&gt;npm run&lt;/code&gt;도 모든 스크립트를 나열)&lt;/li&gt;
-&lt;li&gt;작업이 너무 복잡해지면 다른 파일로 이동할 수 있습니다.(예: &amp;ldquo;complex-script&amp;rdquo;: &amp;ldquo;babel-node tools/complex-script.js&amp;rdquo;)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;npm scripts&lt;/code&gt;는 처음에 생각했던 것보다 더 강력합니다.(예: pre/post hooks, passing arguments, config variables, chaining, piping 등)&lt;/li&gt;
-&lt;li&gt;우리는 다음에 큰 것(Anvil, brocolli, Grunt, Gulp)이 나올 때 특정한 구조 추상화에 얽매이지 않을 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;단점:488277c0661887b82f83e27e48b1d35e&#34;&gt;단점&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;모든 사람이 &lt;code&gt;npm scripts&lt;/code&gt;에 익숙한 것은 아닙니다.&lt;/li&gt;
-&lt;li&gt;일부 스크립트는 시간이 오래 걸리고 번거롭습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;편리한-모듈들:488277c0661887b82f83e27e48b1d35e&#34;&gt;편리한 모듈들&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;npm-run-all&lt;/code&gt;: 여러개의 스크립트를 병렬 또는 순차적으로 실행하는 CLI도구입니다.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;rimraf&lt;/code&gt;: 노드에 대한 딥 삭제 모듈 (&lt;code&gt;rm -rf&lt;/code&gt; 처럼)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;onchange&lt;/code&gt;: 파일 세트를 보려면 glob패턴을 사용하고 추가, 변경 또는 삭제된 항목이 있을 때 명령을 실행할 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;gulp:488277c0661887b82f83e27e48b1d35e&#34;&gt;gulp&lt;/h2&gt;
-
-&lt;h3 id=&#34;장점-1:488277c0661887b82f83e27e48b1d35e&#34;&gt;장점&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;gulp 플러그인과 유틸리티가 많습니다.&lt;/li&gt;
-&lt;li&gt;공통적인 Gulp작업을 제공하기 위한 일부 도우미 라이브러리가 이미 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;단점-1:488277c0661887b82f83e27e48b1d35e&#34;&gt;단점&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Gulp 플러그인은 오래된 경우가 많으며, 기본 라이브러리의 새 기능을 지원하지 않습니다.&lt;/li&gt;
-&lt;li&gt;포장된 라이브러리가 아닌 Gulp 플러그인 작성자에게 종속되어 있습니다.&lt;/li&gt;
-&lt;li&gt;Gulp 플러그인 문서는 일반적으로 매우 강력하지 않고 포괄적이지 않습니다.&lt;/li&gt;
-&lt;li&gt;Gulp 플러그인을 디버깅하는 것은 당신에게 좌절을 줄 수 있습니다. 플러그인이나 기존 라이브러리에 문제가 있을 수 있거든요.&lt;/li&gt;
-&lt;li&gt;만약 Gulp에 대한 플러그인이 없는 경우 당신이 직접 작성해야 합니다.&lt;/li&gt;
-&lt;li&gt;Gulp 내에서 발생하는 오류는 대부분 잘 처리되지 않습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;고려할-생각:488277c0661887b82f83e27e48b1d35e&#34;&gt;고려할 생각&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;오직 &lt;code&gt;npm scripts&lt;/code&gt;로만 전환하는가, Gulp를 계속 사용하는가, 아니면 이 둘을 혼합하여 사용하는가?&lt;/li&gt;
-&lt;li&gt;만일 우리가 &lt;code&gt;npm scripts&lt;/code&gt;와 Gulp의 합성된 무엇인가를 가지고 있다면 우리는 어떻게 무엇을 해야할지 결정해야되는가? 어느 정도의 복잡성 임계값이 충족될 때까지 &lt;code&gt;npm scripts&lt;/code&gt;라는 가정으로 시작해야 하는가? 우리가 새로운 프로젝트에 &lt;code&gt;npm scripts&lt;/code&gt;만을 사용하고 복잡성이 증가할 때 &lt;code&gt;tools/script-file.js&lt;/code&gt;로 바꿀 수 있는가? (예는 &lt;a href=&#34;https://github.com/coryhouse/react-slingshot&#34;&gt;react-slingshot&lt;/a&gt; 참조)&lt;/li&gt;
-&lt;li&gt;이미 시행된 위험이 있는 프로젝트는 어떻게 조정하고 있는가? 계속해서 업데이트하고 있는가, 계속 업데이트하고 있는 것으로 확인될 경우에는 &lt;code&gt;npm scripts&lt;/code&gt;로 전환하는 것을 고려할 수 있는가?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;이-문서는-여기-https-gist-github-com-elijahmanor-179e47828bf760c218bb3820d929836d-의-내용을-번역한-것입니다-오역-지적-받습니다:488277c0661887b82f83e27e48b1d35e&#34;&gt;이 문서는 &lt;a href=&#34;https://gist.github.com/elijahmanor/179e47828bf760c218bb3820d929836d&#34;&gt;여기&lt;/a&gt;의 내용을 번역한 것입니다. 오역 지적 받습니다.&lt;/h3&gt;
-</description>
-=======
       <description>npm scripts와 gulp 비교 npm scripts 장점 npm scripts는 낮은 수준이며 사용하고자 하는 실제 라이브러리를 활용합니다.(예: &amp;ldquo;lint&amp;rdquo;: &amp;ldquo;eslint ./&amp;rdquo;) package.json</description>
->>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
     </item>
     
   </channel>
