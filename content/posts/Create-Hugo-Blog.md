@@ -32,7 +32,7 @@ tags: ["HUGO", "GO", "BLOG"]
 
 2. 새로운 사이트를 만든다.
 
-```
+```bash
 $ hugo new site <site_name>
 ex) $ hugo new site blog
 ```
@@ -42,7 +42,7 @@ ex) $ hugo new site blog
 
 <a href="https://themes.gohugo.io/">Hugo Themes</a>에서 원하는 테마의 git 저장소 URL을 확인한다. 그리고 생성된 사이트 폴더에서 아래와 같이 cmd에 입력.
 
-```
+```bash
 $ cd themes
 $ git clone <repo_url_of_theme>
 ```
@@ -72,7 +72,7 @@ publishdir은 깃허브 호스팅을 위해 꼭 필요하므로 꼭 기입하기
 
 로컬환경에서 사이트를 볼 수 있다. site_name 폴더에서 시작한다. (C:\Hugo\site-name\)
 
-```
+```bash
 $ hugo server
 ```
 
@@ -83,7 +83,7 @@ $ hugo server
 1. 깃허브에서 <username>.github.io 레포를 만든다.
 2. site_name 폴더에서 시작한다. (C:\Hugo\site-name\)
 
-```
+```bash
 $ hugo
 $ cd public
 $ git init
@@ -96,7 +96,7 @@ $ git push origin master
 ### 포스트 추가
 
 포스트 추가도 깃허브 호스팅에서와 같은 방법으로 하면 된다.
-```
+```bash
 $ hugo
 $ cd public
 $ git init

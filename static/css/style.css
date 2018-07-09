@@ -42,6 +42,7 @@ table {
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900');
 @import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
+@import url('https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css');
 
 .symbol, a.symbol:before {
     font-family: 'Source Sans Pro', sans-serif;
@@ -54,7 +55,6 @@ table {
     -moz-font-smoothing: antialiased;
     -ms-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
-    font-smoothing: antialiased;
 }
 
 
@@ -85,7 +85,6 @@ table {
     font-family: "icons";
     font-style: normal;
     font-weight: normal;
-    speak: none;
     display: inline-block;
     text-decoration: inherit;
     text-align: center;
@@ -357,7 +356,6 @@ em, i {
     font-size: 30px;
     letter-spacing: -1px;
     color: #222;
-    font-weight: bold;
 }
 
 .home h2 {
@@ -374,14 +372,14 @@ em, i {
     margin-bottom: 20px;
     color: #222;
     font: 300 32px/1.4em 'NanumSquareRound', sans-serif;
-    font-weight: 800;
+    font-weight: 400;
 }
 
 .post h2 {
     margin-top: 20px;
     margin-bottom: 10px;
     font: 300 24px/1.5 'NanumSquareRound', sans-serif;
-    font-weight: 800;
+    font-weight: 400;
     color: #111;
 }
 
@@ -392,7 +390,7 @@ em, i {
     font-size: 13px;
     letter-spacing: 1px;
     display: inline-block;
-    font-weight: 800;
+    font-weight: 400;
 }
 
 .post h2.headline .tags {
@@ -404,14 +402,14 @@ em, i {
     letter-spacing: 2px;
     margin-top: 5px;
     display: block;
-    font-weight: 800;
+    font-weight: 400;
 }
 
 #post-list h2 {
     font: normal 17px/1.5em 'NanumSquareRound', sans-serif;
     color: #aaa;
     margin-top: 2px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 h3, h4, h5 {
@@ -421,22 +419,19 @@ h3, h4, h5 {
 h3 {
     font-family: 'NanumSquareRound', sans-serif;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 h4 {
     font-size: 16px;
-    font-weight: bold;
 }
 
 h5 {
     font-size: 15px;
-    font-weight: bold;
 }
 
 h6 {
     font-size: 13px;
-    font-weight: bold;
     color: #666;
     margin-bottom: 6px;
 }
@@ -526,9 +521,6 @@ img {
 Post List
 =========================================== */
 
-#post-list, #archive-list {
-}
-
 #post-list li, #archive-list li {
     list-style-type: none;
 }
@@ -590,9 +582,18 @@ Post List
 
 
 /* Post Page */
+code,
+#toc,
+#TableOfContents a code
 
-#header {
+{
+  font-family: "Fira Code", monospace !important;
 }
+
+code, pre code {
+  color: #333;
+}
+
 #wrapper.post {
     max-width: 670px;
 }
@@ -711,7 +712,7 @@ h2.month {
     margin-bottom: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #eee;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 #archive-list li:last-child {
@@ -722,7 +723,7 @@ h2.month {
     display: block;
     font: bold 17px/1.7 'Source Sans Pro', sans-serif;
     color: #333;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 #archive-list .dates {
@@ -731,7 +732,7 @@ h2.month {
     top: 1px;
     font: 300 17px/1.7 'Source Sans Pro', sans-serif;
     color: #bbb;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 #archive-list li a:hover, #archive-list li:hover .dates {
@@ -757,13 +758,13 @@ h2.month {
 #post-list.archive.readmore h3 {
     font: 400 20px 'Source Sans Pro', sans-serif;
     margin-bottom: 30px;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 #post-list.archive.readmore a {
     font: 400 16px/1.6 'Source Sans Pro', sans-serif;
     color: #2EA3F2;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 #post-list.archive.readmore a:hover {
@@ -772,7 +773,7 @@ h2.month {
 
 #post-list.archive.readmore .dates {
     font: 300 16px/1.6 'Source Sans Pro', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 #disqus_thread, #ds-thread {
@@ -926,7 +927,7 @@ a.symbol:hover {
   border-radius: 4px;
   overflow: hidden;
   font-family: 'NanumSquareRound', sans-serif;
-  font-weight: 800;
+  font-weight: 400;
 }
 #TableOfContents {
   margin: 1em 0 0 0;
@@ -952,7 +953,7 @@ a.symbol:hover {
 }
 #TableOfContents a code{
   font-family: 'NanumSquareRound', sans-serif;
-  font-weight: 800;
+  font-weight: 400;
   background-color: #fff;
   font-size: 11px;
   padding: 2px 3px;
