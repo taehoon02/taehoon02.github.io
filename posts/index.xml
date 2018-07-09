@@ -6,6 +6,7 @@
     <description>Recent content in Posts on Taehoon&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
+<<<<<<< HEAD
     <lastBuildDate>Mon, 09 Jul 2018 21:31:00 +0830</lastBuildDate>
     <atom:link href="https://taehoon02.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -140,6 +141,20 @@ sudo apt upgrade &amp;amp;&amp;amp; sudo apt autoremove
 &lt;/ol&gt;
 &lt;/blockquote&gt;
 </description>
+=======
+    <lastBuildDate>Wed, 06 Jun 2018 17:03:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://taehoon02.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IROC 2018</title>
+      <link>https://taehoon02.github.io/posts/iroc_2018/</link>
+      <pubDate>Wed, 06 Jun 2018 17:03:00 +0900</pubDate>
+      
+      <guid>https://taehoon02.github.io/posts/iroc_2018/</guid>
+      <description>로봇올림피아드 Weaver 제작의도 (흰 부분이 전부 백화현상이 나타나 산호가 죽은 곳이다) 산호지대에는 바다의 존재하는 생물의 5분의 1이상이 모여 살고있다. 현재, 산</description>
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
     </item>
     
     <item>
@@ -148,6 +163,7 @@ sudo apt upgrade &amp;amp;&amp;amp; sudo apt autoremove
       <pubDate>Tue, 24 Apr 2018 18:18:00 +0900</pubDate>
       
       <guid>https://taehoon02.github.io/posts/npm-scripts__vs__gulp/</guid>
+<<<<<<< HEAD
       <description>
 
 &lt;h1 id=&#34;npm-scripts와-gulp-비교:488277c0661887b82f83e27e48b1d35e&#34;&gt;npm scripts와 gulp 비교&lt;/h1&gt;
@@ -209,6 +225,9 @@ sudo apt upgrade &amp;amp;&amp;amp; sudo apt autoremove
 
 &lt;h3 id=&#34;이-문서는-여기-https-gist-github-com-elijahmanor-179e47828bf760c218bb3820d929836d-의-내용을-번역한-것입니다-오역-지적-받습니다:488277c0661887b82f83e27e48b1d35e&#34;&gt;이 문서는 &lt;a href=&#34;https://gist.github.com/elijahmanor/179e47828bf760c218bb3820d929836d&#34;&gt;여기&lt;/a&gt;의 내용을 번역한 것입니다. 오역 지적 받습니다.&lt;/h3&gt;
 </description>
+=======
+      <description>npm scripts와 gulp 비교 npm scripts 장점 npm scripts는 낮은 수준이며 사용하고자 하는 실제 라이브러리를 활용합니다.(예: &amp;ldquo;lint&amp;rdquo;: &amp;ldquo;eslint ./&amp;rdquo;) package.json</description>
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
     </item>
     
     <item>
@@ -217,6 +236,7 @@ sudo apt upgrade &amp;amp;&amp;amp; sudo apt autoremove
       <pubDate>Wed, 11 Apr 2018 12:15:00 +0900</pubDate>
       
       <guid>https://taehoon02.github.io/posts/how_to_github_api_tree/</guid>
+<<<<<<< HEAD
       <description>
 
 &lt;h3 id=&#34;준비할-것:6aade633742390beb32d644141ee5636&#34;&gt;준비할 것&lt;/h3&gt;
@@ -256,10 +276,14 @@ sudo apt upgrade &amp;amp;&amp;amp; sudo apt autoremove
 &lt;p&gt;더 다양한 &lt;a href=&#34;https://developer.github.com/&#34;&gt;GitHub API&lt;/a&gt;는 &lt;a href=&#34;https://developer.github.com/&#34;&gt;여기&lt;/a&gt;를 참고하세요!&lt;br&gt;
 오역이나 궁금한 점은 &lt;a href=&#34;https://taehoon02.github.io/about&#34;&gt;About&lt;/a&gt;의 연락망으로 연락해주시면 친절히 답변해드립니다.&lt;br&gt;물론 영어가 딸려서 한국분만 해당됩니다^^&lt;/p&gt;
 </description>
+=======
+      <description>준비할 것 Postman 설치 github api token 받기 (github settings -&amp;gt; developer settings -&amp;gt; personal access tokens 에서 토큰 발급. (이 토큰은 잘 알아두도록 하자.) Tree 구하기 GitHub API Tree를 참고하여 작성한다. Postman 실행 Authorization TYP</description>
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
     </item>
     
     <item>
       <title>Hugo 블로그 만들기</title>
+<<<<<<< HEAD
       <link>https://taehoon02.github.io/posts/Create-Hugo-Blog/</link>
       <pubDate>Wed, 04 Apr 2018 21:31:00 +0900</pubDate>
       
@@ -379,6 +403,13 @@ $ git push origin master
 
 &lt;p&gt;오역이나 궁금한 점은 &lt;a href=&#34;https://taehoon02.github.io/about&#34;&gt;About&lt;/a&gt;의 연락망으로 연락해주시면 친절히 답변해드립니다.&lt;br&gt;물론 영어가 딸려서 한국분만 해당됩니다^^&lt;/p&gt;
 </description>
+=======
+      <link>https://taehoon02.github.io/posts/create-hugo-blog/</link>
+      <pubDate>Wed, 04 Apr 2018 21:31:00 +0900</pubDate>
+      
+      <guid>https://taehoon02.github.io/posts/create-hugo-blog/</guid>
+      <description>시작하기 전에 windows를 기준으로 설명한다. (필자는 windows 10) go언어를 설치하자. github pages이므로 git 설치 안했다고 빼애액거리면 때리러감. 그러므로</description>
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
     </item>
     
   </channel>

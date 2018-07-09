@@ -7,7 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <lastBuildDate>Tue, 24 Apr 2018 18:18:00 +0900</lastBuildDate>
+<<<<<<< HEAD
     <atom:link href="https://taehoon02.github.io/tags/gulp/index.xml" rel="self" type="application/rss+xml" />
+=======
+    
+	<atom:link href="https://taehoon02.github.io/tags/gulp/index.xml" rel="self" type="application/rss+xml" />
+    
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
     
     <item>
       <title>npm scripts와 gulp 비교</title>
@@ -15,6 +21,7 @@
       <pubDate>Tue, 24 Apr 2018 18:18:00 +0900</pubDate>
       
       <guid>https://taehoon02.github.io/posts/npm-scripts__vs__gulp/</guid>
+<<<<<<< HEAD
       <description>
 
 &lt;h1 id=&#34;npm-scripts와-gulp-비교:488277c0661887b82f83e27e48b1d35e&#34;&gt;npm scripts와 gulp 비교&lt;/h1&gt;
@@ -76,6 +83,9 @@
 
 &lt;h3 id=&#34;이-문서는-여기-https-gist-github-com-elijahmanor-179e47828bf760c218bb3820d929836d-의-내용을-번역한-것입니다-오역-지적-받습니다:488277c0661887b82f83e27e48b1d35e&#34;&gt;이 문서는 &lt;a href=&#34;https://gist.github.com/elijahmanor/179e47828bf760c218bb3820d929836d&#34;&gt;여기&lt;/a&gt;의 내용을 번역한 것입니다. 오역 지적 받습니다.&lt;/h3&gt;
 </description>
+=======
+      <description>npm scripts와 gulp 비교 npm scripts 장점 npm scripts는 낮은 수준이며 사용하고자 하는 실제 라이브러리를 활용합니다.(예: &amp;ldquo;lint&amp;rdquo;: &amp;ldquo;eslint ./&amp;rdquo;) package.json</description>
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
     </item>
     
   </channel>

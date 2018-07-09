@@ -7,6 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <lastBuildDate>Wed, 06 Jun 2018 17:03:00 +0900</lastBuildDate>
+<<<<<<< HEAD
     <atom:link href="https://taehoon02.github.io/tags/iroc/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -100,6 +101,19 @@
 &lt;/ol&gt;
 &lt;/blockquote&gt;
 </description>
+=======
+    
+	<atom:link href="https://taehoon02.github.io/tags/iroc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IROC 2018</title>
+      <link>https://taehoon02.github.io/posts/iroc_2018/</link>
+      <pubDate>Wed, 06 Jun 2018 17:03:00 +0900</pubDate>
+      
+      <guid>https://taehoon02.github.io/posts/iroc_2018/</guid>
+      <description>로봇올림피아드 Weaver 제작의도 (흰 부분이 전부 백화현상이 나타나 산호가 죽은 곳이다) 산호지대에는 바다의 존재하는 생물의 5분의 1이상이 모여 살고있다. 현재, 산</description>
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
     </item>
     
   </channel>

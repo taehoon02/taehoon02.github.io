@@ -42,7 +42,10 @@ table {
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900');
 @import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
+<<<<<<< HEAD
 @import url('https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css');
+=======
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
 
 .symbol, a.symbol:before {
     font-family: 'Source Sans Pro', sans-serif;
@@ -55,6 +58,10 @@ table {
     -moz-font-smoothing: antialiased;
     -ms-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
+<<<<<<< HEAD
+=======
+    font-smoothing: antialiased;
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
 }
 
 
@@ -85,6 +92,10 @@ table {
     font-family: "icons";
     font-style: normal;
     font-weight: normal;
+<<<<<<< HEAD
+=======
+    speak: none;
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
     display: inline-block;
     text-decoration: inherit;
     text-align: center;
@@ -129,6 +140,7 @@ table {
 }
 
 #post-list li {
+<<<<<<< HEAD
     margin-bottom: 0px;
 }
 
@@ -145,6 +157,11 @@ code,
 code, pre code {
     color: #333;
 }
+=======
+  margin-bottom: 0px;
+}
+
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
 
 /* Base */
 
@@ -164,6 +181,10 @@ h1 {
     font-size: 30px;
     letter-spacing: -1px;
     color: #222;
+<<<<<<< HEAD
+=======
+    font-weight: bold;
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
 }
 
 h2 {
@@ -244,6 +265,7 @@ nav.main-nav a.cta {
     margin-left: 12px;
 }
 @media (max-width: 700px) {
+<<<<<<< HEAD
     nav.main-nav {
         padding: 20px 10px 0 0;
         background: #fff;
@@ -265,6 +287,29 @@ nav.main-nav a.cta {
 @media (max-width: 324px) {
     nav.main-nav a.cta {
         display: none;
+=======
+  nav.main-nav {
+      padding: 20px 10px 0 0;
+      background: #fff;
+      background: rgba(255, 255, 255, .90);
+      margin: 0 auto;
+      text-align: right;
+      z-index: 100;
+  }
+  nav.main-nav a {
+      top: 8px;
+      right: 6px;
+      padding: 8px 8px;
+      color: #2EA3F2;
+      font-size: 13px;
+      line-height: 1.35;
+      border-radius: 3px;
+  }
+}
+@media (max-width: 324px) {
+    nav.main-nav a.cta {
+      display: none;
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
     }
 }
 
@@ -368,6 +413,10 @@ em, i {
     font-size: 30px;
     letter-spacing: -1px;
     color: #222;
+<<<<<<< HEAD
+=======
+    font-weight: bold;
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
 }
 
 .home h2 {
@@ -431,19 +480,35 @@ h3, h4, h5 {
 h3 {
     font-family: 'NanumSquareRound', sans-serif;
     font-size: 20px;
+<<<<<<< HEAD
     font-weight: 400;
+=======
+    font-weight: 700;
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
 }
 
 h4 {
     font-size: 16px;
+<<<<<<< HEAD
+=======
+    font-weight: bold;
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
 }
 
 h5 {
     font-size: 15px;
+<<<<<<< HEAD
+=======
+    font-weight: bold;
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
 }
 
 h6 {
     font-size: 13px;
+<<<<<<< HEAD
+=======
+    font-weight: bold;
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
     color: #666;
     margin-bottom: 6px;
 }
@@ -533,6 +598,12 @@ img {
 Post List
 =========================================== */
 
+<<<<<<< HEAD
+=======
+#post-list, #archive-list {
+}
+
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
 #post-list li, #archive-list li {
     list-style-type: none;
 }
@@ -595,6 +666,11 @@ Post List
 
 /* Post Page */
 
+<<<<<<< HEAD
+=======
+#header {
+}
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
 #wrapper.post {
     max-width: 670px;
 }
@@ -604,6 +680,10 @@ Post List
 
 #post-meta {
     font-size: 13px;
+<<<<<<< HEAD
+=======
+    font-weight: bold;
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
     line-height: 1.4;
     border-top: 1px solid #eee;
     padding-top: 40px;
@@ -712,7 +792,11 @@ h2.month {
     margin-bottom: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #eee;
+<<<<<<< HEAD
     font-weight: 400;
+=======
+    font-weight: 700;
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
 }
 
 #archive-list li:last-child {
@@ -758,13 +842,21 @@ h2.month {
 #post-list.archive.readmore h3 {
     font: 400 20px 'Source Sans Pro', sans-serif;
     margin-bottom: 30px;
+<<<<<<< HEAD
     font-weight: 400;
+=======
+    font-weight: 700;
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
 }
 
 #post-list.archive.readmore a {
     font: 400 16px/1.6 'Source Sans Pro', sans-serif;
     color: #2EA3F2;
+<<<<<<< HEAD
     font-weight: 400;
+=======
+    font-weight: 700;
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
 }
 
 #post-list.archive.readmore a:hover {
@@ -773,7 +865,11 @@ h2.month {
 
 #post-list.archive.readmore .dates {
     font: 300 16px/1.6 'Source Sans Pro', sans-serif;
+<<<<<<< HEAD
     font-weight: 400;
+=======
+    font-weight: 700;
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
 }
 
 #disqus_thread, #ds-thread {
@@ -791,6 +887,10 @@ h2.month {
 #sharing a {
     font-size: 20px;
     font-size: 13px;
+<<<<<<< HEAD
+=======
+    font-weight: bold;
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
     color: #fff;
     padding: 6px 10px;
     border-radius: 4px;

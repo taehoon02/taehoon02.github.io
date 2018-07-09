@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chemical on Taehoon&#39;s Blog</title>
+    <link>https://taehoon02.github.io/tags/chemical/</link>
+    <description>Recent content in Chemical on Taehoon&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Wed, 06 Jun 2018 16:46:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://taehoon02.github.io/tags/chemical/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>화학식 모음</title>
+      <link>https://taehoon02.github.io/posts/chemical_formula/</link>
+      <pubDate>Wed, 06 Jun 2018 16:46:00 +0900</pubDate>
+      
+      <guid>https://taehoon02.github.io/posts/chemical_formula/</guid>
+      <description>   </description>
+    </item>
+    
+  </channel>
+</rss>

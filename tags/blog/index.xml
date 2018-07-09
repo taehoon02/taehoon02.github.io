@@ -7,6 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <lastBuildDate>Wed, 04 Apr 2018 21:31:00 +0900</lastBuildDate>
+<<<<<<< HEAD
     <atom:link href="https://taehoon02.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -130,6 +131,19 @@ $ git push origin master
 
 &lt;p&gt;오역이나 궁금한 점은 &lt;a href=&#34;https://taehoon02.github.io/about&#34;&gt;About&lt;/a&gt;의 연락망으로 연락해주시면 친절히 답변해드립니다.&lt;br&gt;물론 영어가 딸려서 한국분만 해당됩니다^^&lt;/p&gt;
 </description>
+=======
+    
+	<atom:link href="https://taehoon02.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo 블로그 만들기</title>
+      <link>https://taehoon02.github.io/posts/create-hugo-blog/</link>
+      <pubDate>Wed, 04 Apr 2018 21:31:00 +0900</pubDate>
+      
+      <guid>https://taehoon02.github.io/posts/create-hugo-blog/</guid>
+      <description>시작하기 전에 windows를 기준으로 설명한다. (필자는 windows 10) go언어를 설치하자. github pages이므로 git 설치 안했다고 빼애액거리면 때리러감. 그러므로</description>
+>>>>>>> b15686b81524232566d308f5e6615e8db7f1274e
     </item>
     
   </channel>
