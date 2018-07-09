@@ -6,47 +6,18 @@
     <description>Recent content in Linux on Taehoon&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Mon, 09 Jul 2018 21:31:00 +0830</lastBuildDate>
-    <atom:link href="https://taehoon02.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Jul 2018 02:58:49 +0900</lastBuildDate>
+    
+	<atom:link href="https://taehoon02.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>Ubuntu Gnome 16.04 설치하기</title>
-      <link>https://taehoon02.github.io/posts/how-to-install-ubuntu-gnome-16.04/</link>
-      <pubDate>Mon, 09 Jul 2018 21:31:00 +0830</pubDate>
+      <title>Ubuntu Gnome 16.04 LTS 설치하기</title>
+      <link>https://taehoon02.github.io/posts/how-to-install-ubuntu-gnome/</link>
+      <pubDate>Mon, 09 Jul 2018 02:58:49 +0900</pubDate>
       
-      <guid>https://taehoon02.github.io/posts/how-to-install-ubuntu-gnome-16.04/</guid>
-      <description>
-
-&lt;h3 id=&#34;필자의-노트북-상태:d63adf24022123471103a2b20c7f1edb&#34;&gt;필자의 노트북 상태&lt;/h3&gt;
-
-&lt;p&gt;노트북이 Samsung Laptop 5 NT500R5L-Y54M 인지라 쓸데없이 많이 깔면 무한 로그인 혹은 무한 가상콘솔로 빠지게 된다. &lt;del&gt;(내가 이것땜에 3일동안 우분투 재설치만 조지게 반복했음.)&lt;/del&gt;&lt;br&gt;
-따라서 아래 링크를 참고하되, 몇가지 개선사항을 내놓는다.&lt;/p&gt;
-
-&lt;h3 id=&#34;ubuntu-gnome-16-04-설치하기:d63adf24022123471103a2b20c7f1edb&#34;&gt;ubuntu gnome 16.04 설치하기&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://b.chalk.pe/posts/setting-up-ubuntu-gnome-16-04/&#34;&gt;https://b.chalk.pe/posts/setting-up-ubuntu-gnome-16-04/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;그대로-따라하되-다른-점-개선사항:d63adf24022123471103a2b20c7f1edb&#34;&gt;그대로 따라하되 다른 점 (개선사항)&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;자바 설치 X&lt;/li&gt;
-&lt;li&gt;mongodb 설치 X&lt;/li&gt;
-&lt;li&gt;필수 패키지 설치에서 마지막 세문장 변경&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo apt update
-sudo apt install git fcitx fcitx-hangul nodejs yarn numix-icon-theme-circle
-sudo apt upgrade &amp;amp;&amp;amp; sudo apt autoremove
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Freon 설치 X&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;bash-대신-zsh-사용하기:d63adf24022123471103a2b20c7f1edb&#34;&gt;bash 대신 zsh 사용하기&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://b.chalk.pe/posts/setting-up-oh-my-zsh/&#34;&gt;https://b.chalk.pe/posts/setting-up-oh-my-zsh/&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://taehoon02.github.io/posts/how-to-install-ubuntu-gnome/</guid>
+      <description>필자의 노트북 삼성 노트북 5 NT500R5L-Y54M 설치 https://b.chalk.pe/posts/setting-up-ubuntu-gnome-16-04/ 달리 해야할 점 java, mongodb, Freon 설치 X 필수 패키지 설정 중 맨 아래 명령어 변경 sudo apt update sudo apt install git fcitx fcitx-hangul nodejs yarn numix-icon-theme-circle sudo apt upgrade &amp;amp;&amp;amp; sudo apt autoremove 추가로 해야할 점</description>
     </item>
     
   </channel>

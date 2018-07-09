@@ -6,10 +6,19 @@
     <description>Recent content on Taehoon&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Wed, 06 Jun 2018 17:03:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 09 Jul 2018 02:58:49 +0900</lastBuildDate>
     
 	<atom:link href="https://taehoon02.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ubuntu Gnome 16.04 LTS 설치하기</title>
+      <link>https://taehoon02.github.io/posts/how-to-install-ubuntu-gnome/</link>
+      <pubDate>Mon, 09 Jul 2018 02:58:49 +0900</pubDate>
+      
+      <guid>https://taehoon02.github.io/posts/how-to-install-ubuntu-gnome/</guid>
+      <description>필자의 노트북 삼성 노트북 5 NT500R5L-Y54M 설치 https://b.chalk.pe/posts/setting-up-ubuntu-gnome-16-04/ 달리 해야할 점 java, mongodb, Freon 설치 X 필수 패키지 설정 중 맨 아래 명령어 변경 sudo apt update sudo apt install git fcitx fcitx-hangul nodejs yarn numix-icon-theme-circle sudo apt upgrade &amp;amp;&amp;amp; sudo apt autoremove 추가로 해야할 점</description>
+    </item>
     
     <item>
       <title>IROC 2018</title>
