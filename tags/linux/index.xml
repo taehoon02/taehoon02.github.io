@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Ubuntu Gnome 16.04 LTS 설치하기</title>
+      <title>Ubuntu Gnome 16.04.3 LTS 설치하기</title>
       <link>https://taehoon02.github.io/posts/how-to-install-ubuntu-gnome/</link>
       <pubDate>Mon, 09 Jul 2018 02:58:49 +0900</pubDate>
       
       <guid>https://taehoon02.github.io/posts/how-to-install-ubuntu-gnome/</guid>
-      <description>필자의 노트북 삼성 노트북 5 NT500R5L-Y54M 설치 https://b.chalk.pe/posts/setting-up-ubuntu-gnome-16-04/ 달리 해야할 점 java, mongodb, Freon 설치 X 필수 패키지 설정 중 맨 아래 명령어 변경 sudo apt update sudo apt install git fcitx fcitx-hangul nodejs yarn numix-icon-theme-circle sudo apt upgrade &amp;amp;&amp;amp; sudo apt autoremove 추가로 해야할 점</description>
+      <description>필자의 노트북 삼성 노트북 5 NT500R5L-Y54M 설치 https://b.chalk.pe/posts/setting-up-ubuntu-gnome-16-04/ ubuntu gnome 16.04.3 lts iso 파일은 여기를 참고해서 다운로드한다. 달리 해야할 점 mongodb, Freon 설치 X 필수 패키지 설정 중 맨 아래 명령어 변경 sudo apt update sudo apt</description>
     </item>
     
   </channel>
