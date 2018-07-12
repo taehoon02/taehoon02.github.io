@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contest on Taehoon&#39;s Blog</title>
+    <link>https://taehoon02.github.io/tags/contest/</link>
+    <description>Recent content in Contest on Taehoon&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Wed, 06 Jun 2018 17:03:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://taehoon02.github.io/tags/contest/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IROC 2018</title>
+      <link>https://taehoon02.github.io/posts/iroc_2018/</link>
+      <pubDate>Wed, 06 Jun 2018 17:03:00 +0900</pubDate>
+      
+      <guid>https://taehoon02.github.io/posts/iroc_2018/</guid>
+      <description>개요 국제 로봇 올림피아드 창작부문 출품작 Weaver에 대해 작성한다. Weaver 제작의도 백화현상으로 산호가 죽은 모습 산호지대에는 바다의 존재하는 생물의 5분의 1</description>
+    </item>
+    
+  </channel>
+</rss>
