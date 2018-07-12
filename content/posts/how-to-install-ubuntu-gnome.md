@@ -1,5 +1,5 @@
 ---
-title: "Ubuntu Gnome 16.04.3 LTS 설치하기"
+title: "Ubuntu GNOME 16.04.3 LTS 설치하기"
 date: 2018-07-09T02:58:49+09:00
 tags: ["LINUX"]
 ---

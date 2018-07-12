@@ -1,7 +1,7 @@
 ---
 title: "npm scripts와 gulp 비교"
 date: 2018-04-24T18:18:00+09:00
-tags: ["NODEJS", "NPM", "NPM_SCRIPT", "GULP"]
+tags: ["NODEJS"]
 ---
 
 # npm scripts와 gulp 비교
@@ -24,7 +24,7 @@ tags: ["NODEJS", "NPM", "NPM_SCRIPT", "GULP"]
 ### 편리한 모듈들
 
 * `npm-run-all`: 여러개의 스크립트를 병렬 또는 순차적으로 실행하는 CLI도구입니다.
-* `rimraf`: 노드에 대한 딥 삭제 모듈 (<code>rm -rf</code> 처럼)
+* `rimraf`: 노드에 대한 딥 삭제 모듈 (```rm -rf```처럼)
 * `onchange`: 파일 세트를 보려면 glob패턴을 사용하고 추가, 변경 또는 삭제된 항목이 있을 때 명령을 실행할 수 있습니다.
 
 ## gulp
@@ -50,4 +50,7 @@ tags: ["NODEJS", "NPM", "NPM_SCRIPT", "GULP"]
 * 이미 시행된 위험이 있는 프로젝트는 어떻게 조정하고 있는가? 계속해서 업데이트하고 있는가, 계속 업데이트하고 있는 것으로 확인될 경우에는 `npm scripts`로 전환하는 것을 고려할 수 있는가?
 
 
-### 이 문서는 [여기](https://gist.github.com/elijahmanor/179e47828bf760c218bb3820d929836d)의 내용을 번역한 것입니다. 오역 지적 받습니다.
+### 마치면서
+이 문서는 [여기]의 내용을 번역한 것입니다. 오역 지적 받습니다.
+
+[여기]: https://gist.github.com/elijahmanor/179e47828bf760c218bb3820d929836d

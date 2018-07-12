@@ -1,16 +1,16 @@
 ---
 title: "GitHub API Tree 사용하기"
 date: 2018-04-11T12:15:00+09:00
-tags: ["GITHUB_API"]
+tags: ["GITHUB", "API"]
 ---
 
 ### 준비할 것
-1. <a href="https://www.getpostman.com/">Postman</a> 설치
+1. [Postman] 설치
 
-2. <a href="https://github.com">github api token</a> 받기 (github settings -> developer settings -> personal access tokens 에서 토큰 발급. (이 토큰은 잘 알아두도록 하자.)
+2. [github api token]받기 (github settings -> developer settings -> personal access tokens 에서 토큰 발급. (이 토큰은 잘 알아두도록 하자.))
 
 ### Tree 구하기
-<a href="https://developer.github.com/v3/git/trees/">GitHub API Tree</a>를 참고하여 작성한다.
+[GitHub API Tree]를 참고하여 작성한다.
 
 1. Postman 실행
 
@@ -24,10 +24,15 @@ tags: ["GITHUB_API"]
 자신이 필요한 Tree를 구하도록 하자.<br>
 ?recursive=1이 폴더 상위 내용을 포함한다고 선언하는 것이다.
 
-1. 위쪽을 GET으로 하고 url에 ```https://api.github.com/repos/<username>/<repo_name>/git/trees/<sha>``` 을 입력 후 Send를 클릭한다. -> 깃허브 tree가 완성되었다!
+1. 위쪽을 GET으로 하고 url에 ```https://api.github.com/repos/<username>/<repo_name>/git/trees/<sha>``` 을 입력 후 Send를 클릭한다. -> 깃허브 tree가 완성되었다.
 
-2. 위쪽을 GET으로 하고 url에 ```https://api.github.com/repos/<username>/<repo_name>/git/trees/<sha>?recursive=1``` 을 입력 후 Send를 클릭한다. -> 깃허브 tree가 완성되었다!
+2. 위쪽을 GET으로 하고 url에 ```https://api.github.com/repos/<username>/<repo_name>/git/trees/<sha>?recursive=1``` 을 입력 후 Send를 클릭한다. -> 깃허브 tree가 완성되었다.
 
 ### 마치면서
-더 다양한 <a href="https://developer.github.com/">GitHub API</a>는 <a href="https://developer.github.com/">여기</a>를 참고하세요!<br>
-오역이나 궁금한 점은 <a href="https://taehoon02.github.io/about">About</a>의 연락망으로 연락해주시면 친절히 답변해드립니다.<br>물론 영어가 딸려서 한국분만 해당됩니다^^
+더 다양한 Gihub API는 [여기]를 참고하세요.
+
+
+[Postman]: https://www.getpostman.com/
+[github api token]: https://github.com
+[Github API Tree]: https://developer.github.com/v3/git/trees/
+[여기]: https://developer.github.com/
