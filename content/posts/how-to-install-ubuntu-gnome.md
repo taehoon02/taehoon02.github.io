@@ -1,5 +1,5 @@
 ---
-title: "Ubuntu GNOME 16.04.3 LTS 설치하기"
+title: "Ubuntu GNOME 16.04 LTS 설치하기"
 date: 2018-07-09T02:58:49+09:00
 tags: ["LINUX"]
 ---
@@ -8,8 +8,7 @@ tags: ["LINUX"]
 삼성 노트북 5 NT500R5L-Y54M
 
 ### 설치
-[https://b.chalk.pe/posts/setting-up-ubuntu-gnome-16-04/]<br>
-ubuntu gnome 16.04.3 lts iso 파일은 [여기]를 참고해서 다운로드한다.
+[https://b.chalk.pe/posts/setting-up-ubuntu-gnome-16-04/]
 
 ### 달리 해야할 점
 1. mongodb, Freon 설치 X
