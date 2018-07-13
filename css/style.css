@@ -159,19 +159,6 @@ h2 {
     color: #bbb;
 }
 
-figure {
-    margin-bottom: 0.75em;
-}
-
-figcaption {
-    color: #888;
-    font-style: italic;
-}
-
-figcaption p {
-    margin-bottom: 0;
-}
-
 .profile #wrapper {
     padding: 60px 40px 0px;
     max-width: 600px;
@@ -245,27 +232,27 @@ nav.main-nav a.cta {
     margin-left: 12px;
 }
 @media (max-width: 700px) {
-    nav.main-nav {
-        padding: 20px 10px 0 0;
-        background: #fff;
-        background: rgba(255, 255, 255, .90);
-        margin: 0 auto;
-        text-align: right;
-        z-index: 100;
-    }
-    nav.main-nav a {
-        top: 8px;
-        right: 6px;
-        padding: 8px 8px;
-        color: #2EA3F2;
-        font-size: 13px;
-        line-height: 1.35;
-        border-radius: 3px;
-    }
+  nav.main-nav {
+      padding: 20px 10px 0 0;
+      background: #fff;
+      background: rgba(255, 255, 255, .90);
+      margin: 0 auto;
+      text-align: right;
+      z-index: 100;
+  }
+  nav.main-nav a {
+      top: 8px;
+      right: 6px;
+      padding: 8px 8px;
+      color: #2EA3F2;
+      font-size: 13px;
+      line-height: 1.35;
+      border-radius: 3px;
+  }
 }
 @media (max-width: 324px) {
     nav.main-nav a.cta {
-        display: none;
+      display: none;
     }
 }
 
