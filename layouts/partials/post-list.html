@@ -6,13 +6,7 @@
                 <aside class="dates">{{ .Date.Format "Jan 2" }}</aside>
                 <a href='{{ .Permalink }}'>
                     {{ .Title }}
-                    <!-- {{ if .Site.Params.enableSummary }}
-                        {{ if .Site.Params.useDescriptionReplaceSummary }}
-                            <h2>{{ .Description | plainify }}</h2>
-                        {{ else }}
-                            <h2>{{ .Summary | plainify | htmlUnescape }}</h2>
-                        {{ end }}
-                    {{ end }} -->
+                    <h6>{{ .Summary | plainify | htmlUnescape }}</h6>
                 </a>
             </li>
         {{ end }}

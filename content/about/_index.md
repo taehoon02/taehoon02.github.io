@@ -19,12 +19,12 @@ hidden = true
 
 [디미고]: http://dimigo.hs.kr
 [Phone]: tel:821052376809
-[GitHub]: https://github.com/taehoon02
+[GitHub]: https://github.com/taehooon02
 [Résumé]: https://resume.taevel.kr/
 [Email]: mailto://kth020315@naver.com
 [Telegram]: https://t.me/taevel
 [Instagram]: https://instagram.com/taevel02
-[깃허브]: https://github.com/ChalkPE/taehoon02.github.io
+[깃허브]: https://github.com/taehoon02/taehoon02.github.io
 [Fira Code]: https://github.com/tonsky/FiraCode/blob/master/LICENSE
 [Source Sans Pro]: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web
 [나눔스퀘어라운드]: https://help.naver.com/support/contents/contents.nhn?serviceNo=1074&categoryNo=3497
