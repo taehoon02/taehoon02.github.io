@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Taehoon&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Mon, 09 Jul 2018 02:58:49 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 11 Aug 2018 09:31:00 +0900</lastBuildDate>
     
 	<atom:link href="https://taehoon02.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>IROC 2018</title>
+      <link>https://taehoon02.github.io/posts/iroc_2018/</link>
+      <pubDate>Sat, 11 Aug 2018 09:31:00 +0900</pubDate>
+      
+      <guid>https://taehoon02.github.io/posts/iroc_2018/</guid>
+      <description>위버 개요 국제 로봇 올림피아드 창작부문 출품작 위버에 대해 작성한다. 제작의도 (백화현상으로 산호가 죽은 모습) 산호지대에는 바다의 존재하는 생물의 5 분의 1 이</description>
+    </item>
     
     <item>
       <title>Ubuntu GNOME 16.04 LTS 설치하기</title>
@@ -18,15 +27,6 @@
       
       <guid>https://taehoon02.github.io/posts/how-to-install-ubuntu-gnome/</guid>
       <description>필자의 노트북 삼성 노트북 5 NT500R5L-Y54M 설치 https://b.chalk.pe/posts/setting-up-ubuntu-gnome-16-04/ 달리 해야할 점 mongodb, Freon 설치 X 필수 패키지 설정 중 맨 아래 명령어 변경 sudo apt update sudo apt install -y steam oracle-java8-installer git fcitx fcitx-hangul nodejs yarn numix-icon-theme-circle sudo apt upgrade &amp;amp;&amp;amp; sudo apt autoremove APT로 설</description>
-    </item>
-    
-    <item>
-      <title>IROC 2018</title>
-      <link>https://taehoon02.github.io/posts/iroc_2018/</link>
-      <pubDate>Wed, 06 Jun 2018 17:03:00 +0900</pubDate>
-      
-      <guid>https://taehoon02.github.io/posts/iroc_2018/</guid>
-      <description>개요 국제 로봇 올림피아드 창작부문 출품작 Weaver에 대해 작성한다. Weaver 제작의도 백화현상으로 산호가 죽은 모습 산호지대에는 바다의 존재하는 생물의 5분의 1</description>
     </item>
     
     <item>
