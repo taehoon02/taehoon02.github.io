@@ -19,8 +19,8 @@ hidden = true
 
 [디미고]: http://dimigo.hs.kr
 [Phone]: tel:821052376809
-[GitHub]: https://github.com/taehooon02
-[Résumé]: https://resume.taevel.kr/
+[GitHub]: http://taevel.kr/
+[Résumé]: http://resume.taevel.kr/
 [Email]: mailto://kth020315@naver.com
 [Telegram]: https://t.me/taevel
 [Instagram]: https://instagram.com/taevel02
