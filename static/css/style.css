@@ -587,7 +587,7 @@ code,
 #TableOfContents a code
 
 {
-  font-family: "Fira Code", monospace !important;
+  font-family: "Fira Code", monospace;
 }
 
 code, pre code {

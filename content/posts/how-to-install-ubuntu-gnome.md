@@ -11,19 +11,20 @@ tags: ["LINUX"]
 [https://b.chalk.pe/posts/setting-up-ubuntu-gnome-16-04/]
 
 ### 달리 해야할 점
-1. mongodb, Freon 설치 X
+1. Freon 설치 X
 2. 필수 패키지 설정 중 맨 아래 명령어 변경
 
 ```bash
 sudo apt update
-sudo apt install -y steam oracle-java8-installer git fcitx fcitx-hangul nodejs yarn numix-icon-theme-circle
+sudo apt install -y steam oracle-java8-installer git fcitx fcitx-hangul nodejs yarn numix-icon-theme-circle mongodb-org
 sudo apt upgrade && sudo apt autoremove
 ```
 
 ### APT로 설치하기 귀찮은 프로그램들
-1. [Telegram Desktop] / [Slack] / [Discord] / [Messenger Desktop]
-2. [Visual Studio Code] / [Android Studio]
-3. [Google Chrome] / [Firefox Developer Edition]
+1. [Telegram Desktop]
+2. [Slack]
+3. [Visual Studio Code]
+4. [Google Chrome]
 
 ### 추가로 해야할 점
 [https://b.chalk.pe/posts/setting-up-oh-my-zsh/]

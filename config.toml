@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://taehoon02.github.io/"
 languageCode = "ko"
-title = "Taehoon's Blog"
+title = "JAY HAN DEVELOPMENT BLOG"
 theme = "hugo-theme-cactus-plus"
 googleAnalytics = ""
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
@@ -13,9 +13,9 @@ staticdir = "static"
 publishdir = "public"
 
 [params]
-	author = "Taehoon Kwon"
-	description = "배우고 가르치는 것을 좋아하는 프론트엔드 개발자의 소소한 이야기를 담는 블로그"
-	bio = "EGO IS THE ENEMY"
+	author = "Jay Han"
+	description = "개발하면서 적어두고 싶은 것들을 적어두는 공간입니다."
+	bio = "full of things to do"
 
 	twitter = ""
 	facebook = "taehoon02"
@@ -56,7 +56,7 @@ publishdir = "public"
 
 	olderPosts = ""
 	newerPosts = ""
-	copyright = "&copy; 2018 Taehoon (Irenebode)"
+	copyright = "&copy; 2018 Jay Han"
 
 	# show latest posts in single page
 	showLatestPosts = false
