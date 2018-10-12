@@ -19,7 +19,7 @@ hidden = true
 [Phone]: tel:821052376809
 [GitHub]: https://github.com/taehoon02/
 [Résumé]: https://resume.taevel.kr/
-[Email]: mailto://kth020315@naver.com
+[Email]: mailto://taevel02@gmail.com
 [Telegram]: https://t.me/taevel
 [Instagram]: https://instagram.com/taevel02
 [깃허브]: https://github.com/taehoon02/taehoon02.github.io
