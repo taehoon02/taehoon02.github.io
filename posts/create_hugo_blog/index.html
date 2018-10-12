@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+			
+  
+    <meta name="twitter:card" content="summary"/>
+    
+      <meta name="twitter:image" content="https://taehoon02.github.io/images/avatar.png" />
+    
+  
+  
+  <meta name="twitter:title" content="Hugo 블로그 만들기"/>
+  <meta name="twitter:description" content="시작하기 전에 windows를 기준으로 설명한다. (필자는 windows 10) Go언어를 설치하자. github pages이므로 git 설치 안했다고 빼애액거리면 때리러감. 그러므로"/>
+  
+  
+  
+  
+    <meta name="twitter:creator" content="@Jay Han"/>
+  
+
+
+
+		
+		<meta name="author" content="Jay Han">
+		<meta name="description" content="개발하면서 적어두고 싶은 것들을 적어두는 공간입니다.">
+		<meta name="generator" content="Hugo 0.43" />
+		<title>Hugo 블로그 만들기 &middot; JAY HAN DEVELOPMENT BLOG</title>
+		<link rel="shortcut icon" href="https://taehoon02.github.io/images/favicon.ico">
+		<link rel="stylesheet" href="https://taehoon02.github.io/css/style.css">
+		<link rel="stylesheet" href="https://taehoon02.github.io/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="https://taehoon02.github.io/css/font-awesome.min.css">
+		
+
+		
+		<link href="https://taehoon02.github.io/index.xml" rel="alternate" type="application/rss+xml" title="JAY HAN DEVELOPMENT BLOG" />
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://taehoon02.github.io/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='https://taehoon02.github.io/posts'>Archive</a>
+	<a href='https://taehoon02.github.io/tags'>Tags</a>
+	<a href='https://taehoon02.github.io/about'>About</a>
+
+	
+
+	
+	
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        Hugo 블로그 만들기
+                    </h1>
+                    <h2 class="headline">
+                    Apr 4, 2018 21:31
+                    · 967 words
+                    · 2 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="https://taehoon02.github.io/tags/hugo">HUGO</a>
+                          
+                              <a href="https://taehoon02.github.io/tags/go">GO</a>
+                          
+                              <a href="https://taehoon02.github.io/tags/blog">BLOG</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+<h2 id="시작하기-전에">시작하기 전에</h2>
+
+<ol>
+<li>windows를 기준으로 설명한다. (필자는 windows 10)</li>
+<li><a href="https://golang.org/">Go언어</a>를 설치하자.</li>
+<li>github pages이므로 <a href="https://git-scm.com/">git</a> 설치 안했다고 빼애액거리면 때리러감.<br>그러므로 <a href="https://git-scm.com/">git</a>을 설치하자.</li>
+</ol>
+
+<h2 id="시작하기">시작하기</h2>
+
+<p><a href="https://gohugo.io/getting-started/installing/">Install Hugo</a>에 나와있는데로 <a href="https://chocolatey.org/">Chocolatey</a>을 통해서 설치할 수도 있지만 다른 방법을 사용하여 Hugo 설치 및 깃허브 호스팅 방법을 올리도록 하겠다.</p>
+
+<h3 id="hugo-설치">Hugo 설치</h3>
+
+<ol>
+<li><a href="https://github.com/gohugoio/hugo/releases">Hugo Releases</a>에 들어가 최신버전의 Hugo를 다운받는다. (windows-32bit.zip 혹은 windows-64bit.zip 을 자신의 컴퓨터에 알맞게 선택하여 설치)</li>
+<li>Hugo 폴더를 만들고 안에 bin 폴더를 만든다. (C:\Hugo\bin)</li>
+<li>다운받은 압축파일의 내용물만 bin폴더에 푼다. (hugo.exe, README.md, LICENSE.md)</li>
+<li>환경변수 PATH에 새로 <code>C:\Hugo\bin</code> 을 추가한다.</li>
+</ol>
+
+<p>설치 완료.</p>
+
+<h3 id="hugo-블로그-만들기">Hugo 블로그 만들기</h3>
+
+<p>원하는 폴더에서 커맨드창을 열고 새로운 사이트를 만든다.</p>
+
+<pre><code class="language-bash">$ hugo new site &lt;site_name&gt;
+ex) $ hugo new site blog
+</code></pre>
+
+<p>사이트 생성 완료.</p>
+
+<h3 id="테마-적용하기">테마 적용하기</h3>
+
+<p><a href="https://themes.gohugo.io/">Hugo Themes</a>에서 원하는 테마의 git 저장소 URL을 확인한다. 그리고 생성된 사이트 폴더에서 아래와 같이 커맨드창에 입력한다.</p>
+
+<pre><code class="language-bash">$ cd themes
+$ git clone &lt;repo_url_of_theme&gt;
+</code></pre>
+
+<p>테마 설치 완료.<br>
+그리고 테마에 대한 내용을 복붙하거나 테마 git README 파일에서 하라는 대로 하면 테마가 적용된다.</p>
+
+<h3 id="포스트-만들기">포스트 만들기</h3>
+
+<p>포스트를 만들때에는 아래와 같이 하면 된다.</p>
+
+<pre><code class="language-bash">$ hugo new posts/my-first-post.md
+</code></pre>
+
+<h3 id="configuration">Configuration</h3>
+
+<p>config.[toml|yaml|json]<br>
+Hugo 프로젝트의 설정파일이다. 테마별로 빌드관련 설정이 다르므로 테마에서 제공하는 config.[toml|yaml|json] 파일을 가져온 후 아래와 같은 정보를 추가한다.</p>
+
+<pre><code>baseurl = &quot;&lt;domain&gt;&quot;
+languageCode = &quot;ko&quot;
+title = &quot;&lt;title&gt;&quot;
+theme = &quot;&lt;theme_name&gt;&quot;
+
+contentdir = &quot;content&quot;
+layoutdir = &quot;layouts&quot;
+staticdir = &quot;static&quot;
+publishdir = &quot;public&quot;
+</code></pre>
+
+<p>여기에서 가장 중요한 것은 publishdir, baseurl, theme 정도.<br>
+publishdir은 깃허브 호스팅을 위해 꼭 필요하므로 꼭 기입하기 바란다.<br>
+꺽은가로 표시된 것은 입맛에 맛게 바꾸도록 하고, baseurl의 경우 깃허브 호스팅을 사용한다면 <code>https://&lt;username&gt;.github.io/</code> 로 입력하자.</p>
+
+<h3 id="로컬환경에서-사이트-확인">로컬환경에서 사이트 확인</h3>
+
+<p>로컬환경에서 사이트를 볼 수 있다.</p>
+
+<pre><code class="language-bash">$ hugo server
+</code></pre>
+
+<p>이제 <a href="http://localhost:1313">http://localhost:1313</a>로 접속하여 확인 가능하다.</p>
+
+<h2 id="깃허브-호스팅으로-사이트-공유하기">깃허브 호스팅으로 사이트 공유하기</h2>
+
+<ol>
+<li>깃허브에서 <code>&lt;username&gt;.github.io</code> 레포를 만든다. (이 경우 config.[toml|yaml|json]파일의 babelurl은 <code>&lt;username&gt;.github.io</code>로 해야한다.)</li>
+<li>Hugo 블로그를 만든 폴더에서 커맨드창을 열고 입력한다.</li>
+</ol>
+
+<pre><code class="language-bash">$ hugo
+$ cd public
+$ git init
+$ git add .
+$ git commit -m &quot;initial commit&quot;
+$ git remote add origin https://github.com/username/username.github.io.git
+$ git push origin master
+</code></pre>
+
+<h3 id="포스트-추가">포스트 추가</h3>
+
+<p>포스트 추가도 깃허브 호스팅에서와 같은 방법으로 하면 된다.</p>
+
+<pre><code class="language-bash">$ hugo
+$ cd public
+$ git init
+$ git add .
+$ git commit -m &quot;initial commit&quot;
+$ git push origin master
+</code></pre>
+
+<h2 id="마치면서">마치면서</h2>
+
+<p>나는 <a href="https://jekyllrb.com/">Jekyll</a>을 사용하지 않았는데 <a href="https://gohugo.io/">Hugo</a>에 굉장히 만족하고 있으며, 모두 즐거운 코딩되길 바란다.</p>
+
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'taehoon-blog'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.facebook.com/taehoon02">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://github.com/taehoon02">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        &copy; 2018 Jay Han
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="https://taehoon02.github.io/js/jquery-3.3.1.min.js"></script>
+<script src="https://taehoon02.github.io/js/main.js"></script>
+<script src="https://taehoon02.github.io/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+
+
+
+
+    </body>
+</html>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on Taehoon&#39;s Blog</title>
+    <title>Linux on JAY HAN DEVELOPMENT BLOG</title>
     <link>https://taehoon02.github.io/tags/linux/</link>
-    <description>Recent content in Linux on Taehoon&#39;s Blog</description>
+    <description>Recent content in Linux on JAY HAN DEVELOPMENT BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <lastBuildDate>Mon, 09 Jul 2018 02:58:49 +0900</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Mon, 09 Jul 2018 02:58:49 +0900</pubDate>
       
       <guid>https://taehoon02.github.io/posts/how-to-install-ubuntu-gnome/</guid>
-      <description>필자의 노트북 삼성 노트북 5 NT500R5L-Y54M 설치 https://b.chalk.pe/posts/setting-up-ubuntu-gnome-16-04/ 달리 해야할 점 mongodb, Freon 설치 X 필수 패키지 설정 중 맨 아래 명령어 변경 sudo apt update sudo apt install -y steam oracle-java8-installer git fcitx fcitx-hangul nodejs yarn numix-icon-theme-circle sudo apt upgrade &amp;amp;&amp;amp; sudo apt autoremove APT로 설</description>
+      <description>필자의 노트북 삼성 노트북 5 NT500R5L-Y54M 설치 https://b.chalk.pe/posts/setting-up-ubuntu-gnome-16-04/ 달리 해야할 점 Freon 설치 X 필수 패키지 설정 중 맨 아래 명령어 변경 sudo apt update sudo apt install -y steam oracle-java8-installer git fcitx fcitx-hangul nodejs yarn numix-icon-theme-circle mongodb-org sudo apt upgrade &amp;amp;&amp;amp; sudo apt autoremove APT로 설</description>
     </item>
     
   </channel>

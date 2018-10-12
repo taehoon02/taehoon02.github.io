@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Taehoon&#39;s Blog</title>
+    <title>Posts on JAY HAN DEVELOPMENT BLOG</title>
     <link>https://taehoon02.github.io/posts/</link>
-    <description>Recent content in Posts on Taehoon&#39;s Blog</description>
+    <description>Recent content in Posts on JAY HAN DEVELOPMENT BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Sat, 11 Aug 2018 09:31:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 11 Aug 2018 21:16:00 +0900</lastBuildDate>
     
 	<atom:link href="https://taehoon02.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>위버</title>
+      <title>Netlify 시작하기</title>
+      <link>https://taehoon02.github.io/posts/start_netlify/</link>
+      <pubDate>Sat, 11 Aug 2018 21:16:00 +0900</pubDate>
+      
+      <guid>https://taehoon02.github.io/posts/start_netlify/</guid>
+      <description>Netlify를 사용한 이유 Netlify를 사용한 이유는 해당 글을 참고하시기 바랍니다. Netlify 사이트 생성 회원가입을 합니다. 전 깃허브를 사용하였습니다. 접</description>
+    </item>
+    
+    <item>
+      <title>산호 생태계 조성 로봇, 위버</title>
       <link>https://taehoon02.github.io/posts/iroc_2018/</link>
       <pubDate>Sat, 11 Aug 2018 09:31:00 +0900</pubDate>
       
@@ -26,7 +35,7 @@
       <pubDate>Mon, 09 Jul 2018 02:58:49 +0900</pubDate>
       
       <guid>https://taehoon02.github.io/posts/how-to-install-ubuntu-gnome/</guid>
-      <description>필자의 노트북 삼성 노트북 5 NT500R5L-Y54M 설치 https://b.chalk.pe/posts/setting-up-ubuntu-gnome-16-04/ 달리 해야할 점 mongodb, Freon 설치 X 필수 패키지 설정 중 맨 아래 명령어 변경 sudo apt update sudo apt install -y steam oracle-java8-installer git fcitx fcitx-hangul nodejs yarn numix-icon-theme-circle sudo apt upgrade &amp;amp;&amp;amp; sudo apt autoremove APT로 설</description>
+      <description>필자의 노트북 삼성 노트북 5 NT500R5L-Y54M 설치 https://b.chalk.pe/posts/setting-up-ubuntu-gnome-16-04/ 달리 해야할 점 Freon 설치 X 필수 패키지 설정 중 맨 아래 명령어 변경 sudo apt update sudo apt install -y steam oracle-java8-installer git fcitx fcitx-hangul nodejs yarn numix-icon-theme-circle mongodb-org sudo apt upgrade &amp;amp;&amp;amp; sudo apt autoremove APT로 설</description>
     </item>
     
     <item>
@@ -49,10 +58,10 @@
     
     <item>
       <title>Hugo 블로그 만들기</title>
-      <link>https://taehoon02.github.io/posts/create-hugo-blog/</link>
+      <link>https://taehoon02.github.io/posts/create_hugo_blog/</link>
       <pubDate>Wed, 04 Apr 2018 21:31:00 +0900</pubDate>
       
-      <guid>https://taehoon02.github.io/posts/create-hugo-blog/</guid>
+      <guid>https://taehoon02.github.io/posts/create_hugo_blog/</guid>
       <description>시작하기 전에 windows를 기준으로 설명한다. (필자는 windows 10) Go언어를 설치하자. github pages이므로 git 설치 안했다고 빼애액거리면 때리러감. 그러므로</description>
     </item>
     
